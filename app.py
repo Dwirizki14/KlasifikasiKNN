@@ -11,7 +11,7 @@ model = joblib.load('model_knn.pkl')
 scaler = joblib.load('scaler_knn.pkl')
 
 # Load dataset untuk visualisasi
-df = pd.read_csv('dataset_rgb.csv')
+df = pd.read_csv('dataset_nanas.csv')
 
 # Konfigurasi halaman
 st.set_page_config(page_title="Prediksi Kematangan Nanas", layout="wide")
